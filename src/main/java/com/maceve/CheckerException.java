@@ -1,4 +1,4 @@
-package com.dali;
+package com.maceve;
 
 public class CheckerException extends Exception{
 
