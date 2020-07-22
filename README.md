@@ -34,4 +34,4 @@ Different Providers and True Result Accuracy
 |Gmail|Accurate|
 |QQ Mail|Not Accurate|
 |Tencent Enterprise Mail|not accurate, but domain exists|
-|Aliyun Enterpsise Mail|Accurate|
+|Aliyun Enterprise Mail|Accurate|
