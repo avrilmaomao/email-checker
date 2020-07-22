@@ -9,9 +9,19 @@ This approach is accurate for some mail providers, but inaccurate or has some li
 
 So DO NOT use it in situations where it need to be the exact result.
 
+## install
+use Maven or other dependency management tools:
+
+    <dependency>
+        <groupId>com.maceve</groupId>
+        <artifactId>email-checker</artifactId>
+        <version>1.0.1</version>
+    </dependency>
+    
+[Find latest versions](https://mvnrepository.com/artifact/com.maceve/email-checker)    
+
 
 ## How to check
-
     EmailChecker checker = new EmailChecker();
     
     boolean checkOk = checker.checkEmail("dali@gmail.com");
