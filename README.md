@@ -22,8 +22,10 @@ During the checking process, if encounted with  errors, it will throw a CheckerE
 ## Limitations
 
 Different mail service providers have different rules when answering the RCPT command, which leads to the inacurate result of this method.
-Some mail providers don't check the validity during the RCPT command at all, some just check if the domain is valid, others do check the if full address exists.
-However, if you get a false result, it's highly possible the address  doesn't exist, since the mail service provider needs to do a real check to give a negative result.
+
+Some mail providers don't check the validity during the RCPT command at all, some just check if the domain is valid, others do check the if full address exists.So when you get a True result, it dosen't mean the address really exists.
+
+However, if you get a False result, it's highly possible the address  doesn't exist, since the mail service provider needs to do a real check to give a negative result.
 
 Different Providers and True Result Accuracy
 
